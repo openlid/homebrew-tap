@@ -1,30 +1,35 @@
 # homebrew-tap
 
-Homebrew tap for [Diyan Bogdanov's](https://github.com/diyanbogdanov) macOS
-apps.
+Homebrew tap maintained by the [Open-Lid](https://github.com/openlid)
+organization. Hosts macOS casks for the project's apps.
+
+> Note: Homebrew Casks are macOS-only by design. Linux and Windows
+> distributions, when available, will be linked from each project's
+> own README. This tap exists specifically for `brew install --cask`
+> users on macOS.
 
 ## Usage
 
 ```bash
-brew tap diyanbogdanov/tap
+brew tap openlid/tap
 brew install --cask open-lid
 ```
 
 Or in one command:
 
 ```bash
-brew install --cask diyanbogdanov/tap/open-lid
+brew install --cask openlid/tap/open-lid
 ```
 
 ## Available casks
 
 ### `open-lid`
 
-[Open-Lid](https://github.com/diyanbogdanov/open-lid) — keep your Mac awake
+[Open-Lid](https://github.com/openlid/open-lid) — keep your laptop awake
 even with the lid closed.
 
 ```bash
-brew install --cask diyanbogdanov/tap/open-lid
+brew install --cask openlid/tap/open-lid
 ```
 
 After install, launch Open-Lid; macOS will ask you to enable it in
