@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap maintained by the [Open-Lid](https://github.com/openlid)
+Homebrew tap maintained by the [OpenLid](https://github.com/openlid)
 organization. Hosts macOS casks for the project's apps.
 
 > Note: Homebrew Casks are macOS-only by design. Linux and Windows
@@ -12,20 +12,20 @@ organization. Hosts macOS casks for the project's apps.
 
 ```bash
 brew tap openlid/tap
-brew install --cask open-lid
+brew install --cask openlid
 ```
 
 Or in one command:
 
 ```bash
-brew install --cask openlid/tap/open-lid
+brew install --cask openlid/tap/openlid
 ```
 
 ## Available casks
 
-### `open-lid`
+### `openlid`
 
-[Open-Lid](https://github.com/openlid/open-lid) — keep your laptop awake
+[OpenLid](https://github.com/openlid/openlid) — keep your laptop awake
 even with the lid closed.
 
 ```bash
